@@ -1,0 +1,30 @@
+.side-menu {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100%;
+    padding-top: 1rem;
+    background-color: var(--background-color);
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transition: transform ease-in-out 0.3s;
+    z-index: 100;
+}
+
+.is-open {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* button {
+    background-color: transparent;
+    color: var(--primary-color);
+    padding: 0.25rem;
+    transition: color ease-in-out 0.3s;
+    
+}
+
+button:hover{
+        color: var(--accent-color);
+} */

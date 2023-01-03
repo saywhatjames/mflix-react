@@ -1,0 +1,48 @@
+img {
+    width: 16rem;
+    height: 24rem !important;
+
+}
+
+.genre {
+    color: var(--primary-color);
+
+}
+
+.genre:not(:last-child):after {
+    content: "|";
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.genre:not(:last-child):after {
+    content: '|';
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+}
+
+.language {
+    color: var(--accent-color);
+}
+
+.rating {
+    background-color: #2b32c5;
+    color: var(--primary-color);
+    width: 6rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 0.25rem 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.chakra-modal__close-btn {
+    z-index: 100;
+    background-color: #dedbd9 !important;
+    border-radius: 2rem !important;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
