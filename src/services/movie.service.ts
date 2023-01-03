@@ -1,7 +1,7 @@
 import { movie_mocks } from "../assets/data/movie_mocks";
 import { Movie } from "../models/movie.model";
 
-const moviesUrl = 'http://localhost:5000/movies';
+//const moviesUrl = 'http://localhost:5000/movies';
  
 
 export function discoverMovies(): Promise<Movie[]> {
